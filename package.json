@@ -1,0 +1,16 @@
+{
+  "name": "neon-rift-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A ready-to-play mobile-friendly cyberpunk side-scrolling platformer.",
+  "scripts": {
+    "play": "node scripts/play.js",
+    "start": "npm run start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm test --prefix frontend -- --watchAll=false --passWithNoTests",
+    "install:frontend": "npm install --prefix frontend"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
