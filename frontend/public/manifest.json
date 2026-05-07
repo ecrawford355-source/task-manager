@@ -1,0 +1,20 @@
+{
+  "short_name": "Neon Runner",
+  "name": "Neon Rift Runner",
+  "description": "A mobile-friendly cyberpunk side-scrolling platformer with double jumps, hazards, enemies, shards, scoring, and synthwave audio.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "landscape-primary",
+  "background_color": "#050510",
+  "theme_color": "#050510",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

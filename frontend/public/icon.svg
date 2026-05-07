@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Neon Rift Runner icon</title>
+  <desc id="desc">A glowing cyberpunk runner helmet over a neon city gradient.</desc>
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="22%" r="90%">
+      <stop offset="0" stop-color="#2effff"/>
+      <stop offset="0.42" stop-color="#25175f"/>
+      <stop offset="1" stop-color="#070611"/>
+    </radialGradient>
+    <linearGradient id="bolt" x1="70" x2="440" y1="90" y2="430">
+      <stop stop-color="#19f7ff"/>
+      <stop offset="0.52" stop-color="#ff2bd6"/>
+      <stop offset="1" stop-color="#f7ff53"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M64 376h384v44H64zM90 336h64v40H90zm96-56h78v96h-78zm112-88h74v184h-74zm100 120h44v64h-44z" fill="#090915" opacity=".72"/>
+  <path d="M252 67 106 282h118l-40 163 215-253H264z" fill="url(#bolt)" filter="url(#glow)"/>
+  <path d="M198 224c18-67 76-102 137-75 43 20 67 66 56 113l-17 73H157z" fill="#effbff" opacity=".95"/>
+  <path d="M213 223h148l-12 43H202z" fill="#ff2bd6"/>
+  <path d="M232 285h102l-15 50H184z" fill="#19f7ff" opacity=".9"/>
+</svg>
